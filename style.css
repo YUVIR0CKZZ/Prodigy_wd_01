@@ -1,0 +1,72 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  section {
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ff6347; /* Change color on hover */
+  }
+  
+  /* Scrolled Navbar Styles */
+  .scrolled {
+    background-color: #111; /* Change background when scrolling */
+  }
+  
+  /* Section Colors */
+  #home {
+    background-color: #f4f4f4;
+  }
+  
+  #about {
+    background-color: #b3cde0;
+  }
+  
+  #services {
+    background-color: #6497b1;
+  }
+  
+  #contact {
+    background-color: #005b96;
+  }
+  
